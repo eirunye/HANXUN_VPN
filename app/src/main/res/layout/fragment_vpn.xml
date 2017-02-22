@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFEDEDED">
+
+    <LinearLayout
+        android:id="@+id/ll_link_inout_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/bg_link_input"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            >
+
+            <com.hxnidc.hanxun_vpn.widget.InPutEditText
+                android:id="@+id/et_link_info"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:drawableLeft="@mipmap/info_icon"
+                android:drawablePadding="6dp"
+                android:drawableRight="@drawable/delete_selector"
+                android:hint="@string/details_info"
+                android:maxEms="1"
+                android:textCursorDrawable="@drawable/bg_cursor_color"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_link_input"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            >
+
+            <com.hxnidc.hanxun_vpn.widget.InPutEditText
+                android:id="@+id/et_link_IpAddress"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:drawableLeft="@mipmap/ip_icon"
+                android:drawablePadding="6dp"
+                android:drawableRight="@drawable/delete_selector"
+                android:hint="@string/ip_address"
+                android:maxEms="1"
+                android:textCursorDrawable="@drawable/bg_cursor_color"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_link_input"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            >
+
+            <com.hxnidc.hanxun_vpn.widget.InPutEditText
+                android:id="@+id/et_link_userName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:drawableLeft="@mipmap/username_icon"
+                android:drawablePadding="6dp"
+                android:drawableRight="@drawable/delete_selector"
+                android:hint="@string/vpn_username"
+                android:maxEms="1"
+                android:textCursorDrawable="@null"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_link_input"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            >
+
+            <com.hxnidc.hanxun_vpn.widget.InPutEditText
+                android:id="@+id/et_link_password"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:drawableLeft="@mipmap/password_icon"
+                android:drawablePadding="6dp"
+                android:drawableRight="@drawable/delete_selector"
+                android:hint="@string/vpn_password"
+                android:inputType="textPassword"
+                android:maxEms="1"
+                android:textCursorDrawable="@drawable/bg_cursor_color"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_link_input"
+            android:orientation="horizontal"
+            android:paddingLeft="6dp"
+            >
+
+            <com.hxnidc.hanxun_vpn.widget.InPutEditText
+                android:id="@+id/et_link_keys"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:drawableLeft="@mipmap/miyue_icon"
+                android:drawablePadding="6dp"
+                android:drawableRight="@drawable/delete_selector"
+                android:hint="@string/vpn_key"
+                android:inputType="textPassword"
+                android:maxEms="1"
+                android:textCursorDrawable="@drawable/bg_cursor_color"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/vpn_link"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@mipmap/img_vpn_link"
+                android:background="@drawable/bg_vpn_link"
+                />
+
+            <TextView
+                android:id="@+id/tv_vpn_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/vpn_link"
+                android:textSize="20sp"
+
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:id="@+id/img_vpn_link_try"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@mipmap/vpn_link_nor"
+                android:background="@drawable/bg_vpn_link_try"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/vpn_link_try"
+                android:layout_marginTop="4dp"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

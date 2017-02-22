@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="mainText">#1296db</color>
+    <color name="mainTextNor">#8a8a8a</color>
+    <color name="cursorColor">#3F51B5</color>
+    <color name="blue">#18B4ED</color>
+    <color name="white_drak">#D0EFFA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="accent">#FF5252</color>
+    <color name="accent_high">#D32F2F</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_primary_light">#EFEFEF</color>
+    <color name="text_secondary">#727272</color>
+    <color name="divider">#B6B6B6</color>
+</resources>

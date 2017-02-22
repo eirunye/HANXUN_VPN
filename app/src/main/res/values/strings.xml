@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">韩讯互联</string>
+    <string name="vnp">链接VNP</string>
+    <!--<string name="details_info">请输入描述信息</string>-->
+    <string name="details_info">설명 정보를 입력하십시오</string>
+    <!--<string name="ip_address">请输入IP地址</string>-->
+    <string name="ip_address">IP 주소를 입력하십시오</string>
+    <!--<string name="vpn_username">请输入用户名</string>-->
+    <string name="vpn_username">사용자 이름을 입력하십시오</string>
+    <!--<string name="vpn_password">请输入密码</string>-->
+    <string name="vpn_password">암호를 입력하십시오</string>
+    <!--<string name="vpn_key">请输入密钥</string>-->
+    <string name="vpn_key">입력하십시오. 키</string>
+    <!--<string name="vpn_link">连接</string>-->
+    <string name="vpn_link">연결</string>
+    <string name="vpn_link_try">시용</string>
+    <string name="vpn_null_info">이 설정을 사용하면 모두 비어 안 된다</string>
+    <string name="vpn_null_infos">이 설정을 사용하면 모두 비어 안 된다</string>
+    <string name="vpn_null_ip">IP는 null 일 수 없습니다</string>
+    <string name="vpn_null_username">사용자 이름은 null 일 수 없습니다</string>
+    <string name="vpn_null_password">암호는 null 일 수 없습니다</string>
+</resources>
